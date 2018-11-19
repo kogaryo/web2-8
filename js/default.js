@@ -9,6 +9,10 @@ var separate_time = function(time)
   return [sec,min,hours,days,month,year];
 }
 
+document.getElementById('form').select.onchange= functipon(){
+    location.href = document.getElementById('form').select.value;
+}
+
 var update = function()
 {
  var now = new Date();
