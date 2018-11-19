@@ -16,6 +16,7 @@ var update = function()
 var diff=target.getTime()-now.getTime();
 var counter = separate_time(diff);
 document.getElementById('countdown').textContent=
+    'あいうえおかきくけこ'+
   counter[5] + '年' +
   counter[4] + '月' +
   counter[3] + '日' +
