@@ -23,7 +23,7 @@ document.getElementById('countdown').textContent=
   counter[2] + '時' +
   counter[1] + '分' +
   counter[0] + '秒' +
-    refresh();
+    
 }
 
 var refresh=function()
