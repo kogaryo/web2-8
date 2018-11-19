@@ -102,3 +102,7 @@ for(idx in thmubs){
         document.getElementById("bigimg").src = 'img/' + this.dataset.image + '.png';
     }
 }
+
+document.getElementById('form').onsubmit=function(){
+    window.alert('押されました！');
+}
